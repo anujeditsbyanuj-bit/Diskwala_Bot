@@ -26,7 +26,7 @@ MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "diskwala_bot")
 ADMINS = list({OWNER_ID, *[int(x) for x in os.getenv("ADMINS", "").split(",") if x.strip()]})
 
 # Photo shown on /start. Can be a URL or a local file path.
-START_PHOTO_URL = os.getenv("START_PHOTO_URL", "https://telegra.ph/file/8b0e5a6c1e5a1a6a1a1a1.jpg")
+START_PHOTO_URL = os.getenv("START_PHOTO_URL", "https://iili.io/nH8JrFI.jpg")
 
 # Free (non-premium) users can download this many files per day (UTC).
 DAILY_FREE_LIMIT = int(os.getenv("DAILY_FREE_LIMIT", "5"))
